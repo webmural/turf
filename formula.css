@@ -1,0 +1,40 @@
+html {
+  font-family: monospace;
+  font-size: calc(1ch + 2vmin + 3vmax);
+}
+
+body {
+  padding: 2vmin;
+  padding-inline-start: 5vw;
+  padding-inline-end: 0;
+  margin: auto;
+  overflow-wrap: anywhere;
+}
+
+figure {
+  margin: auto;
+}
+
+nav {
+  font-weight: bold;
+  margin-block: 5vh;
+}
+
+dt {
+  font-weight: bold;
+  margin: 0;
+  margin-block: 5vh;
+}
+
+dd {
+  margin: 0;
+}
+
+dd::first-letter {
+  font-weight: bold;
+}
+
+:focus {
+  outline-style: dashed;
+  outline-width: thick;
+}
