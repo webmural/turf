@@ -1,0 +1,111 @@
+html {
+  font-family: monospace;
+  font-size: calc(1em + 1vw + 1vh);
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  padding: 2vmin;
+  padding-inline-start: 5vw;
+  padding-inline-end: 0;
+  margin: auto;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.west {
+  margin-inline-start: 0;
+  margin-inline-end: auto;
+}
+
+footer {
+  font-weight: bold;
+  margin-block: 5vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+footer a {
+  margin-inline-end: auto;
+}
+
+a {
+  display: inline-block;
+  padding: 1ex;
+  vertical-align: bottom;
+}
+
+[href^="#"] {
+  text-decoration-style: dashed;
+}
+
+dt {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  margin-block: 5vh;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+dd {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 1ex;
+}
+
+dd::first-letter {
+  font-weight: bold;
+}
+
+:focus {
+  outline-style: dashed;
+  outline-width: thick;
+  filter: hue-rotate(60deg);
+}
+
+:link:hover {
+  filter: hue-rotate(120deg);
+}
+
+i {
+  font-size: calc(2em/3);
+  font-style: inherit;
+  font-weight: bold;
+}
+
+sup {
+  font-size: .5em;
+}
+
+sub {
+  font-size: .5em;
+}
+
+small {
+  font-size: calc(1em/3);
+}
+
+.beat {
+  font-size: 1.5em;
+  list-style: none;
+}
+
+.doon {
+  transform: rotate(-2deg);
+}
+
+.cube {
+  margin: auto;
+  transform: rotate3d(1, -1, -1, -0.111turn);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a {
+    transition: 30ms linear;
+  }
+}
