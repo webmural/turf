@@ -95,10 +95,6 @@ small {
   list-style: none;
 }
 
-.doon {
-  transform: rotate(-2deg);
-}
-
 .cube {
   margin: auto;
   transform: rotate3d(1, -1, -1, -0.111turn);
